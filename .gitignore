@@ -1,0 +1,4 @@
+# Dataset #
+###################
+*.npy
+task7-dataset\test-images
