@@ -15,15 +15,19 @@ Made by Alejandra Bravo, Nipun Das, Sean Hershey.
 Andrew Harp, Geoffrey Irving, Michael Isard, Rafal Jozefowicz, Yangqing Jia, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Mané, Mike Schuster, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viégas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng (2015). TensorFlow: Large-scale machine learning on heterogeneous systems. https://tensorflow.org
 
 ## Instructions
-1. Install Keras
-   - pip install keras
-2. Install Tensorflow
-   - pip install tensorflow
-3. Request the download for Dataset Task 7 Damage Level from ImageNet or direct download if still available
+1. Install Tensorflow and Keras.
+   - pip install tensorflow keras
+2. Install Gradio and Skimage for demo.
+   - pip install gradio scikit-image
+3. To Demo: Run demo.ipynb in the demo folder  
+4. To Train: Download dataset from ImageNet 
+   - Request the download for Dataset Task 7 Damage Level from ImageNet or direct download if still available.
+   - Once downloaded move to dataset folder.
    -   [Task 7 Dataset Request](https://apps.peer.berkeley.edu/phi-net/download-backup/)
    -   [Task 7 Dataset Direct Download](https://apps.peer.berkeley.edu/phi-net/?ed=download&guid=sypvzr-ngymwk-qnbftk-vosygf-rvasit--cxbvin-lmxdhg-ukdzwv-xdiszp-hmszbu)
-4. Run the notebook train.ipynb (the training will take around a hour by default but you can change epoch to 20 for a 15 minute run)
+   - Run train.ipynb (the training will take around a hour by default but you can change epoch to 20 for a 15 minute run)
    - This will produce the main graph results as well as save the model to run in the demo
+
 
 ## Results
 ![Accuracy and Loss Graph](https://i.imgur.com/aBQYitH.png)
