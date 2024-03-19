@@ -4,7 +4,6 @@ Project for CSC 480 at Cal Poly with Professor Dr. Rodrigo Canaan.
 
 Made by Alejandra Bravo, Nipun Das, Sean Hershey.
 
-
 ## Credits
 1. Gao Y., & Mosalam K.M. (2018). Deep Transfer Learning for Image-based Structural Damage Recognition, Computer-Aided Civil and Infrastructure Engineering, 33(9): 748-768.
 2. Gao, Y., & Mosalam, K. M. (2019). PEER Hub ImageNet (Φ-Net): A Large-Scale Multi-Attribute Benchmark Dataset of Structural Images. PEER Report No.2019/07, Pacific Earthquake Engineering Research Center, University of California, Berkeley, CA.
@@ -25,7 +24,7 @@ Andrew Harp, Geoffrey Irving, Michael Isard, Rafal Jozefowicz, Yangqing Jia, Luk
    - Once downloaded move to dataset folder.
    -   [Task 7 Dataset Request](https://apps.peer.berkeley.edu/phi-net/download-backup/)
    -   [Task 7 Dataset Direct Download](https://apps.peer.berkeley.edu/phi-net/?ed=download&guid=sypvzr-ngymwk-qnbftk-vosygf-rvasit--cxbvin-lmxdhg-ukdzwv-xdiszp-hmszbu)
-   - Run train.ipynb (the training will take around a hour by default but you can change epoch to 20 for a 15 minute run)
+   - Run train.ipynb (the training will take around 15 minutes for the 20 epoch run, note our report and the model given is the 100 epoch run which took an hour)
    - This will produce the main graph results as well as save the model to run in the demo
 
 
